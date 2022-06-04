@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(0, 128, 17);
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    align-content: center;
+    
+}
+  .h1{
+    text-align: center;
+    /* padding: 1px; */
+    margin: 0.2rem;
+  }
+  
+ .content{
+  text-align: center;
+  margin-left: 33rem;
+  color: antiquewhite;
+  border: 0.5rem solid rgb(186, 162, 162);
+  display: inline-block;
+  border-radius: 7rem;
+  padding: 1rem 2rem;
+  }
+  #title{
+    color: antiquewhite;
+    display: inline;
+  }
+  
+  #play{
+    margin-top: 70px;
+    display: inline-block;
+    height: 7rem;
+    width: 15rem;
+    border: 1rem solid white;
+    border-radius: 7%;
+    background-color: #225614;
+    font-size: 3rem;
+    color: white;
+    
+    cursor: pointer;
+  
+  }
+  #titleStart{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #5121d6;
+    font-size: 40px;
+    margin-bottom: 0%;
+    /* padding-top: 1px; */
+    /* padding-bottom: 20px; */
+  }
+  #score{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #1d45d7;
+    font-size: 3.5rem;
+    margin-top: 10rem;
+    /* padding: 10px; */
+  }
+ 
+  .btn {
+    margin: 0.7rem;
+    display:flex;
+    height: 5rem;
+    width: 10rem;
+    border: 1rem solid black;
+    border-radius: 20%;
+    background-color: rgb(58, 55, 55);
+    cursor: pointer;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 2rem white;
+    
+    background-color: rgb(21, 158, 158);
+    transform:scale(1.2);
+
+  }
+  
+  .container {
+
+    display: flex;
+    flex-direction: row;
+   
+  }
+  
+  .left {
+    flex: 50%;
+    text-align: center;
+    padding:6rem;
+    margin-top: 5rem;
+  }
+
+ 
+  .right {
+    flex: 40%;
+    text-align: center;
+    padding:8rem;
+    position: relative;
+    background-image: linear-gradient(red,yellow);
+    height: 40rem;
+    width: 40rem;
+    top: 3rem;
+    margin-right: 4rem;
+    border: 0.5rem black solid;
+    
+  }
+  .eachrow{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  footer{
+    background-color: rgb(78, 81, 185);
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding: 1rem;
+
+  }
+  #hii{
+    text-align: center;
+ 
+    word-spacing: 3px;
+    margin-bottom: 0.5rem;
+    text-decoration: underline solid black;
+  }
+  #name{
+    text-align: center;
+    word-spacing: 3px;
+    text-decoration: underline solid black;    
+  }
+  game-over{
+        background-color: red;
+  }
+ 
+  
+  @media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
